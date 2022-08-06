@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Cabin',sans-serif;
+
+}
+
+.container{
+    margin:0;
+    padding:0;
+}
+
+.main-container,.navbar .container{
+    margin-left: 37px;
+    margin-right: 37px;
+    color: #373A3C;
+
+ 
+}
+/* ajustar margenes segun ancho */
+@media(min-width:1240px){
+    .main-container{
+        margin-left:150px;
+        margin-right:150px;
+    }
+    .navbar .container{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+.nav-titulo{
+    font-family: 'Lobster',cursive;
+    font-size: 37px;
+}
+
+.bg-grey{
+    background-color: #373A3C;
+}
+
+.nombreLocal{
+    font-family: 'Lobster',cursive;
+}
+
+
+.tooltip-inner {
+    white-space:nowrap;
+    max-width:none;
+  }
+
+  /* Solo visible en tamaños pequeños o medianos*/
+#saltoDeLinea{
+    opacity: 0;
+    color: #000000;
+}
+
+@media(max-width:480px){
+    #saltoDeLinea{
+        opacity: 1;
+    }
+}
+/* Siempre visible*/
+#saltoDeLineaDos{
+    opacity: 1;
+    color: #000000;
+}
+
+.receta{
+    letter-spacing:0.48px;
+    line-height:30px;
+}
+
+ .carousel-indicators{
+    top: 105%;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: #373A3C;
+    width: 12px;
+    height: 12px;
+    
+    border-radius: 50%;
+}
+
+li{
+    list-style-type: none;
+}
+
+.newsletter{
+background-color:#DC3545;
+}
+
+
+.cabecera .btn{
+    border-color: #DDDDDD;
+    color: #373A3C;
+    font-size: 13px;
+    width: 112px;
+    height: 40px;
+    padding: 0;
+}
+@media(min-width:480px){
+    .cabecera .btn{
+        font-size: 16px;
+        width: 140px;
+    }
+}
+
+.newsletter .btn{
+    color: #FFFFFF;
+}
